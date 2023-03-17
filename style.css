@@ -1,4 +1,4 @@
-/***** GENERAL STYLES ******/
+/***** General Styles ******/
 :root {
   font-size: 62.5%;
 
@@ -13,13 +13,15 @@
 * {
   margin: 0;
   box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a {
   text-decoration: none;
 }
 
-/***** Positioning & Background *****/
+/***** Body Positioning & Background *****/
 body {
   padding-top: 16rem;
   min-height: 100vh;
@@ -124,7 +126,7 @@ body {
   }
 }
 
-/***** ANIMATIONS *****/
+/***** Animations *****/
 @keyframes fadeInUp {
   0% {
     transform: translateY(4rem);
